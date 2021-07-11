@@ -29,6 +29,7 @@ const countdown = () => {
 	progressPercentage = Math.floor((gapUpper / gapLower) * 100);
 
 	document.querySelector(".progress-bar").style.width = parseInt(progressPercentage) + '%';
+	document.querySelector(".percentage").innerText = progressPercentage + '%';
 
 
 
