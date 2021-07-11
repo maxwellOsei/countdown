@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Lato", sans-serif;
+	text-align: center;
+}
+
+.container{
+	background-color:  ghostwhite;
+	border-radius: 10px;
+	padding: 1rem;
+	min-height: 100vh;
+	justify-content: center;
+	box-shadow: 2px 1px 20px 1px #888888;
+}
+
+ h2 {
+	padding: 4rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+h3{
+	font-size:  0.6rem;
+}
+
+.countdown{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.day, .hour, .minute, .second{
+	padding-top: 3rem;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.progress{
+	width: 80%;
+	margin:  0 auto;
+
+}
+
+.limit{
+	font-size: 0.6rem;
+	font-weight: bold;
+}
+
+.day-counter{
+
+	padding: 10%;
+
+}
+
+.root{
+	/*text-align: center;*/
+	color: grey;
+	font-size: 0.8rem;
+}
+
+hr{
+	margin-top: 4rem;
+}
