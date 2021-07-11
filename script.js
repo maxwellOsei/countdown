@@ -26,7 +26,7 @@ const countdown = () => {
 
 	gapUpper = nowDate - startDate;
 	gapLower = endDate - startDate;
-	progressPercentage = Math.floor((gapUpper / gapLower) * 100);
+	progressPercentage = Math.round((gapUpper / gapLower) * 100);
 
 	document.querySelector(".progress-bar").style.width = parseInt(progressPercentage) + '%';
 	document.querySelector(".percentage").innerText = progressPercentage + '%';
