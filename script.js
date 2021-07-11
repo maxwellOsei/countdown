@@ -24,7 +24,7 @@ const countdown = () => {
 	nowDate = new Date().getTime();
 	endDate = new Date(2024, 9, 1).getTime();
 
-	gapUpper = endDate - nowDate;
+	gapUpper = nowDate - startDate;
 	gapLower = endDate - startDate;
 	progressPercentage = Math.floor((gapUpper / gapLower) * 100);
 
